@@ -4,11 +4,10 @@
 		 colors="true"
 		 verbose="true"
 		 stopOnFailure="false">
-
-	<testsuites>
-			<testsuites name="Test suite">
-					<directory>tests</directory>
-			</testsuites>
-	</testsuites>
-
+   <testsuites>
+	 <testsuite name="Test me">
+	   <directory>tests</directory>
+	 </testsuite>
+  </testsuites>
 </phpunit>
+
